@@ -1,0 +1,30 @@
+{
+  "campaigns": [
+    {
+      "id": 1,
+      "title": "Segunda do papoco zenir",
+      "text": "A maior explosão de ofertas",
+      "image": "https://w7.pngwing.com/pngs/246/734/png-transparent-nike-free-nike-air-max-air-jordan-sneakers-nike-white-outdoor-shoe-sneakers.png"
+    }
+  ],
+  "collections": [
+    {
+      "id": 1,
+      "title": "Camisetas",
+      "discount": 30,
+      "image": "https://w7.pngwing.com/pngs/246/734/png-transparent-nike-free-nike-air-max-air-jordan-sneakers-nike-white-outdoor-shoe-sneakers.png"
+    },
+    {
+      "id": 2,
+      "title": "Tenis",
+      "discount": 40,
+      "image": "https://www.imagensempng.com.br/wp-content/uploads/2021/05/Headset-Gamer-Png.png"
+    },
+    {
+      "id": 3,
+      "title": "Headsets",
+      "discount": 10,
+      "image": "https://static.vecteezy.com/system/resources/previews/012/628/220/non_2x/plain-black-t-shirt-on-transparent-background-free-png.png"
+    }
+  ]
+}

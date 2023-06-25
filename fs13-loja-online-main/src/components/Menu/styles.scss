@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+
+$color-pink: #C92071;
+$color-text: #474747;
+
+.menu {
+    a {
+        color: $color-text;
+        margin-right: 10px;
+        text-decoration: none;
+        font-family: Inter, sans-serif;
+
+        &:hover {
+            color: $color-pink;
+            border-bottom: 3px solid $color-pink;
+        }
+
+        &.active {
+            font-weight: bold;
+            border-bottom: 3px solid $color-pink;
+            color: $color-pink;
+        }
+    }
+}

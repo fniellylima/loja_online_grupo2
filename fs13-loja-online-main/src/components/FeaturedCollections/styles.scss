@@ -1,0 +1,18 @@
+$color-bg-blue: #D8E3F2;
+
+div.featured-collections {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    .card {
+        background-color: $color-bg-blue;
+        border-radius: 8px;
+        min-height: 200px;
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            width: 200px;
+        }
+    }
+}
