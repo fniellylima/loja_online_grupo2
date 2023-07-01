@@ -1,0 +1,98 @@
+div.CardContainer {
+    width: 292px;
+    margin-left: 20%;
+
+    div.CardItem {
+        display: flex;
+        position: relative;
+        background-color: #F9F8FE;
+        border-radius: 4px;
+        box-shadow: 6px 16px 30px 0px rgba(105, 98, 98, 0.05);
+
+        span#CardOffer {
+            position: absolute;
+            top: 7%;
+            left: 6%;
+            width: 96px;
+            height: 32px;
+            border-radius: 29px;
+            background: #E7FF86;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            font-family: Inter;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0.75px;
+            color: #474747;
+        }
+
+        img#CardImg {
+            margin-top: 10%;
+            width: 248px;
+            height: auto;
+        }
+    }
+
+    div.CardInfo {
+
+        h3#ItemName {
+            margin-top: 18px;
+            margin-bottom: 0;
+            font-size: 12px;
+            font-family: Inter;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.75px;
+            color: #8F8F8F;
+        }
+
+        p#ItemBrandModel {
+            margin: 0;
+            font-size: 24px;
+            font-family: Inter;
+            line-height: 38px;
+            letter-spacing: 0.75px;
+            color: #474747;
+        }
+
+        div.ItemPrice {
+            display: flex;
+            align-items: center;
+
+            p#Price {
+                margin-top: 0;
+                margin-right: 9px;
+                font-size: 24px;
+                font-family: Inter;
+                font-weight: 700;
+                line-height: 38px;
+                letter-spacing: 0.75px;
+                color: #8F8F8F;
+                margin-top: 0;
+                text-decoration: line-through;
+            }
+
+            p#noOffer {
+                margin-top: 0;
+                font-size: 24px;
+                font-family: Inter;
+                font-weight: 700;
+                line-height: 38px;
+                letter-spacing: 0.75px;
+                color: #1F1F1F;
+            }
+
+            p#DiscountedItemValue {
+                margin-top: 0;
+                font-size: 24px;
+                font-family: Inter;
+                font-weight: 700;
+                line-height: 38px;
+                letter-spacing: 0.75px;
+                color: #1F1F1F;
+            }
+        }
+    }
+}

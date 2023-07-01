@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Button } from "@mui/material";
 import "./styles.scss";
-import tenis from "./img/tenis.png";
+// import tenis from "./img/tenis.png";
 
 export default function FeaturedCollections() {
     const [items, setItems] = React.useState([]); 
@@ -27,7 +27,7 @@ export default function FeaturedCollections() {
                     </div>
 
                     <div>
-                        <img src={props.image}/>
+                        <img alt="ok" src={props.image}/>
                     </div>
                 </div>
             </Grid>
