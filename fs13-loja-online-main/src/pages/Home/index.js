@@ -1,15 +1,12 @@
 import Footer from "../../components/Footer";
-import Menu from "../../components/Menu";
-import Navbar from "../../components/Navbar";
 import FeaturedCollections from "../../components/FeaturedCollections";
 import Carousel from "../../components/Carousel";
+import Header from "../../components/Header";
 
 export default function Home() {
     return (
         <div>
-            <Navbar/>
-
-            <Menu/>
+            <Header/>
 
             <Carousel/>
 

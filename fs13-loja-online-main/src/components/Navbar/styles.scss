@@ -4,9 +4,12 @@ $color-pink: #C92071;
 $color-text: #474747;
 
 .menu {
+    padding: 3px;
+
     a {
         color: $color-text;
         margin-right: 10px;
+        padding: auto;
         text-decoration: none;
         font-family: Inter, sans-serif;
 
