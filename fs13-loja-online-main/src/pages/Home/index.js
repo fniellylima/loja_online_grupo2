@@ -3,31 +3,26 @@ import Menu from "../../components/Menu";
 import Navbar from "../../components/Navbar";
 import FeaturedCollections from "../../components/FeaturedCollections";
 import Carousel from "../../components/Carousel";
+import TrendingProducts from "../../components/TrendingProducts";
 
 export default function Home() {
     return (
         <div>
-            <Navbar/>
+            <Navbar />
 
-            <Menu/>
+            <Menu />
 
-            <Carousel/>
+            <Carousel />
 
-            <FeaturedCollections/>
+            <FeaturedCollections />
 
-            <div>
-                Coleções em Destaque 2
-            </div>
-
-            <div>
-                Produtos
-            </div>
+            <TrendingProducts />
 
             <div>
                 Oferta Especial
             </div>
 
-            <Footer/>
+            <Footer />
         </div>
     )
 }
