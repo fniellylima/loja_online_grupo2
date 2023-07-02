@@ -3,6 +3,7 @@ import { Grid, Button } from "@mui/material";
 import "./styles.scss";
 import tenis from "./img/tenis.png";
 
+
 export default function FeaturedCollections() {
     const [items, setItems] = React.useState([]); 
 
