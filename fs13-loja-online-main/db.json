@@ -10,7 +10,7 @@
   "collections": [
     {
       "id": 1,
-      "title": "Camisetas",
+   "title": "Camisetas",
       "discount": 30,
       "image": "https://w7.pngwing.com/pngs/246/734/png-transparent-nike-free-nike-air-max-air-jordan-sneakers-nike-white-outdoor-shoe-sneakers.png"
     },
@@ -25,6 +25,66 @@
       "title": "Headsets",
       "discount": 10,
       "image": "https://static.vecteezy.com/system/resources/previews/012/628/220/non_2x/plain-black-t-shirt-on-transparent-background-free-png.png"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "offer": 30,
+      "product": "Tênis",
+      "brand": "K-Swiss",
+      "model": "V8 - Masculino",
+      "price": 200 
+    },
+    {
+      "id": 2,
+      "offer": 30,
+      "product": "Tênis",
+      "brand": "K-Swiss",
+      "model": "V8 - Masculino",
+      "price": 200 
+    },
+    {
+      "id": 3,
+      "product": "Tênis",
+      "brand": "K-Swiss",
+      "model": "V8 - Masculino",
+      "price": 200 
+    },
+    {
+      "id": 4,
+      "product": "Tênis",
+      "brand": "K-Swiss",
+      "model": "V8 - Masculino",
+      "price": 200 
+    },
+    {
+      "id": 5,
+      "product": "Tênis",
+      "brand": "K-Swiss",
+      "model": "V8 - Masculino",
+      "price": 200 
+    },
+    {
+      "id": 6,
+      "product": "Tênis",
+      "brand": "K-Swiss",
+      "model": "V8 - Masculino",
+      "price": 200 
+    },
+    {
+      "id": 7,
+      "product": "Tênis",
+      "brand": "K-Swiss",
+      "model": "V8 - Masculino",
+      "price": 200 
+    },
+    {
+      "id": 8,
+      "product": "Tênis",
+      "brand": "K-Swiss",
+      "model": "V8 - Masculino",
+      "price": 200 
     }
   ]
 }

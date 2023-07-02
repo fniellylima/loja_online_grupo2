@@ -1,12 +1,10 @@
 import Footer from "../../components/Footer";
-import Menu from "../../components/Menu";
-import Navbar from "../../components/Navbar";
+import Header from "../../components/Header";
 
 export default function Orders() {
     return (
         <div>
-            <Navbar/>
-            <Menu/>
+            <Header/>
 
             Pagina de Pedidos
 
