@@ -19,10 +19,19 @@ export default function Footer() {
            adipiscing elit, sed do eiusmod tempor <br/>
             incididunt ut labore et dolore</p>
 
-            <div className='icons'>
-              <FacebookIcon/>
-              <InstagramIcon/>
-              <TwitterIcon/>
+            <div className='icons-footer'>
+              <div>
+                <FacebookIcon/>
+              </div>
+              
+              <div>
+                <InstagramIcon/>
+              </div>
+
+              <div>
+                <TwitterIcon/>
+              </div>
+                            
             </div>            
         </div>
 
