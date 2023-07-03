@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Icon, Link } from "@mui/material";
+import { Button} from "@mui/material";
 import "./styles.scss";
 import logo from "./logo.png";
 import SearchField from "../SerchField";
