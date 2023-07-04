@@ -17,6 +17,7 @@ import './styles.scss'
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
+
 const images = [
   {
     subtitle: 'Melhores ofertas personalizadas',

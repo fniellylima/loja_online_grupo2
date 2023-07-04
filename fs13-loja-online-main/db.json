@@ -87,13 +87,13 @@
       "price": 200 
     }
   ],
-  "carouselSlides": [
+  "images": [
     {
       "subtitle": "Melhores ofertas personalizadas",
       "title": "Queima de stoque Nike 🔥",
       "description": "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
       "button_name": "Ver Ofertas",
-      "imagem": "img1",
+      "imagem": "",
       "imagem2": "img2",
       "label": ""
      },
