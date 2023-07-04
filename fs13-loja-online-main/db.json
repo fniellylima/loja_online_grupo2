@@ -86,5 +86,43 @@
       "model": "V8 - Masculino",
       "price": 200 
     }
+  ],
+  "images": [
+    {
+      "subtitle": "Melhores ofertas personalizadas",
+      "title": "Queima de stoque Nike 🔥",
+      "description": "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
+      "button_name": "Ver Ofertas",
+      "imagem": "",
+      "imagem2": "img2",
+      "label": ""
+     },
+     {
+      "subtitle": "Melhores ofertas personalizadas",
+      "title": "Promoção 2 🔥",
+      "description": "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
+      "button_name": "Ver Ofertas",
+      "imagem": "img1",
+      "imagem2": "img2",
+      "label": ""
+     },
+     {
+      "subtitle": "Melhores ofertas personalizadas",
+      "title": "Promoção 3 🔥",
+      "description": "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
+      "button_name": "Ver Ofertas",
+      "imagem": "img1",
+      "imagem2": "img2",
+      "label": ""
+     },
+     {
+      "subtitle": "Melhores ofertas personalizadas",
+      "title": "Promoção 4 🔥",
+      "description": "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
+      "button_name": "Ver Ofertas",
+      "imagem": "img1",
+      "imagem2": "img2",
+      "label": ""
+     }
   ]
 }
