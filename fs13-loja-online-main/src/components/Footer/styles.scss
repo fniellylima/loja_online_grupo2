@@ -44,6 +44,7 @@
   p {
     margin-bottom: 10px;
     margin-top: 5px;
+    cursor: pointer;
   }
 }
 
@@ -68,10 +69,11 @@
   display: flex;
   flex-direction: row;
   
+  
 }
 
 .icons-footer > div{
-
-  padding-right: 20px;
+    margin-right: 25px;
+    cursor: pointer;
 }
 
