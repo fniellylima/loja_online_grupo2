@@ -93,8 +93,8 @@
       "title": "Queima de stoque Nike 🔥",
       "description": "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
       "button_name": "Ver Ofertas",
-      "imagem": "",
-      "imagem2": "img2",
+      "imagem": "https://raw.githubusercontent.com/fniellylima/loja_online_grupo2/f21be1dfd9627d71c979598d63f68632b6916ff1/fs13-loja-online-main/src/components/Carousel/img1.svg",
+      "imagem2": "https://raw.githubusercontent.com/fniellylima/loja_online_grupo2/f21be1dfd9627d71c979598d63f68632b6916ff1/fs13-loja-online-main/src/components/Carousel/img2.svg",
       "label": ""
      },
      {
@@ -102,8 +102,8 @@
       "title": "Promoção 2 🔥",
       "description": "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
       "button_name": "Ver Ofertas",
-      "imagem": "img1",
-      "imagem2": "img2",
+      "imagem": "https://raw.githubusercontent.com/fniellylima/loja_online_grupo2/f21be1dfd9627d71c979598d63f68632b6916ff1/fs13-loja-online-main/src/components/Carousel/img1.svg",
+      "imagem2": "https://raw.githubusercontent.com/fniellylima/loja_online_grupo2/f21be1dfd9627d71c979598d63f68632b6916ff1/fs13-loja-online-main/src/components/Carousel/img2.svg",
       "label": ""
      },
      {
@@ -111,17 +111,17 @@
       "title": "Promoção 3 🔥",
       "description": "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
       "button_name": "Ver Ofertas",
-      "imagem": "img1",
-      "imagem2": "img2",
+      "imagem": "https://raw.githubusercontent.com/fniellylima/loja_online_grupo2/f21be1dfd9627d71c979598d63f68632b6916ff1/fs13-loja-online-main/src/components/Carousel/img1.svg",
+      "imagem2": "https://raw.githubusercontent.com/fniellylima/loja_online_grupo2/f21be1dfd9627d71c979598d63f68632b6916ff1/fs13-loja-online-main/src/components/Carousel/img2.svg",
       "label": ""
-     },
+     }, 
      {
       "subtitle": "Melhores ofertas personalizadas",
       "title": "Promoção 4 🔥",
       "description": "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
       "button_name": "Ver Ofertas",
-      "imagem": "img1",
-      "imagem2": "img2",
+      "imagem": "https://raw.githubusercontent.com/fniellylima/loja_online_grupo2/f21be1dfd9627d71c979598d63f68632b6916ff1/fs13-loja-online-main/src/components/Carousel/img1.svg",
+      "imagem2": "https://raw.githubusercontent.com/fniellylima/loja_online_grupo2/f21be1dfd9627d71c979598d63f68632b6916ff1/fs13-loja-online-main/src/components/Carousel/img2.svg",
       "label": ""
      }
   ]
