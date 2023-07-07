@@ -4,15 +4,88 @@ div.featured-collections {
     margin-top: 100px;
     margin-bottom: 100px;
 
-    .card {
-        background-color: $color-bg-blue;
-        border-radius: 8px;
-        min-height: 200px;
-        display: flex;
-        justify-content: space-between;
+    h3#FeaturedCollectionsTitle {
+        font-size: 24px;
+        letter-spacing: 0.75px;
+        color: #474747;
+        margin-left: 5%;
+    }
 
-        img {
-            width: 200px;
+    div#CardContainer {
+        width: 91%;
+        margin-left: 5vw;
+
+        div.card {
+            background-color: $color-bg-blue;
+            border-radius: 8px;
+            min-height: 200px;
+            display: flex;
+            justify-content: space-between;
+            width: 450px;
+            height: 244px;
+
+            div.cardInfos {
+                display: flex;
+                flex-direction: column;
+                margin-left: 30px;
+
+                span#cardOffer {
+                    width: 96px;
+                    height: 32px;
+                    border-radius: 29px;
+                    background: #E7FF86;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 14px;
+                    font-family: Inter;
+                    font-weight: 700;
+                    line-height: 22px;
+                    letter-spacing: 0.75px;
+                    color: #474747;
+                    margin-top: 20px;
+                }
+
+                p#cardText {
+                    color: #1F1F1F;
+                    font-size: 32px;
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 36px;
+                    letter-spacing: 1px;
+                    width: 104%;
+                    margin: 10% 0;
+                }
+
+                button#cardButton {
+                    width: 153px;
+                    height: 48px;
+                    color: #C92071;
+                    background-color: #FFF;
+                    font-size: 16px;
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 700;
+                    letter-spacing: 0.75px;
+                    box-shadow: none;
+                    border-radius: 8px;
+                    transition: all .3s;
+                }
+
+                button#cardButton:hover {
+                    background-color: #f7f7f7;
+                    border: 1px solid #C92071;
+                    transform: scale(1.05);
+                }
+            }
+
+            img {
+                width: 242px;
+                border-radius: 8px;
+                
+            }
+
         }
     }
 }
