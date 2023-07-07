@@ -5,70 +5,30 @@ import MobileStepper from '@mui/material/MobileStepper';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-//import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
-//import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
 import { Grid} from '@mui/material';
-import img1 from './img1.svg';
-import img2 from './img2.svg'
 import './styles.scss'
 
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 
-const images = [
-  {
-    subtitle: 'Melhores ofertas personalizadas',
-    title: 'Queima de stoque Nike 🔥',
-    description: 'Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.',
-    button_name: 'Ver Ofertas',
-    imagem: img1,
-    imagem2: img2,
-    label: '',
-   },
-  {
-    subtitle: 'Melhores ofertas personalizadas',
-    title: 'Promoção 2 🔥',
-    description: 'Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.',
-    button_name: 'Ver Ofertas',
-    imagem: img1,
-    imagem2: img2,
-    label: '',
-  },
-  {
-    subtitle: 'Melhores ofertas personalizadas',
-    title: 'Promoção 3 🔥',
-    description: 'Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.',
-    button_name: 'Ver Ofertas',
-    imagem: img1,
-    imagem2: img2,
-    label: '',
-   },
-   {
-    subtitle: 'Melhores ofertas personalizadas',
-    title: 'Promoção 4 🔥',
-    description: 'Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.',
-    button_name: 'Ver Ofertas',
-    imagem: img1,
-    imagem2: img2,
-    label: '',
-   }
-];
-
 function SwipeableTextMobileStepper() {
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
+  
+
+  const [images, setImages] = React.useState([]); 
+
+  React.useEffect(() => {    
+      fetch('http://localhost:8000/images')
+          .then(res => res.json())
+          .then(data => setImages(data));
+  }, []);
+
   const maxSteps = images.length;
 
-  // const handleNext = () => {
-  //   setActiveStep((prevActiveStep) => prevActiveStep + 1);
-  // };
-
-  // const handleBack = () => {
-  //   setActiveStep((prevActiveStep) => prevActiveStep - 1);
-  // };
 
   const handleStepChange = (step) => {
     setActiveStep(step);
@@ -88,7 +48,7 @@ function SwipeableTextMobileStepper() {
             bgcolor: 'background.default',
           }}
         >
-          <Typography>{images[activeStep].label}</Typography>
+          <Typography>{images.length !== 0 && images[activeStep].label}</Typography>
         </Paper>
         <AutoPlaySwipeableViews className='bg_slide' 
           axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
