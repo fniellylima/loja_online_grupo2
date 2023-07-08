@@ -1,0 +1,77 @@
+div.ProductContainer {
+    background-color: #F9F8FE;
+    margin-top: 2%;
+    width: 110vw;
+    height: max-content;
+
+    div.ProductContainerHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1% 5%;
+
+        p#ProductContainerResults {
+            font-family: Inter;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 1.5rem;
+            letter-spacing: 0.04688rem;
+            color: #474747;
+        }
+    }
+
+    div.ProductContent {
+        width: 100vw;
+        height: max-content;
+        display: flex;
+        padding-bottom: 2%;
+
+        div#ProductContentFilter {
+            width: 15vw;
+            margin-left: 5%;
+            background-color: #FFF;
+            border-radius: 0.25rem;
+            padding: 1%;
+
+            p.ProductContentFilterHeader {
+                color: #474747;
+                font-family: Inter;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 1.5rem;
+                letter-spacing: 0.04688rem;
+            }
+
+            div.ProductContentFilterList {
+                display: flex;
+                flex-direction: column;
+
+                ul.ProductContentFilter {
+                    list-style: none;
+
+                    label.ProductContentFilterLabel {
+                        color: #474747;
+                        font-family: Inter;
+                        font-size: 0.875rem;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 1.375rem;
+                        letter-spacing: 0.04688rem;
+                    }
+
+                    li.ProductContentFilterItem {
+                        color: #474747;
+                        font-family: Inter;
+                        font-size: 0.875rem;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 1.375rem;
+                        letter-spacing: 0.01563rem;
+                    }
+                }
+            }
+        }
+    }
+}
