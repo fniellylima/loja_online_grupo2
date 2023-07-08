@@ -10,20 +10,20 @@
   "collections": [
     {
       "id": 1,
-   "title": "Camisetas",
+      "title": "Novo drop Supreme",
       "discount": 30,
       "image": "https://w7.pngwing.com/pngs/246/734/png-transparent-nike-free-nike-air-max-air-jordan-sneakers-nike-white-outdoor-shoe-sneakers.png"
     },
     {
       "id": 2,
-      "title": "Tênis",
-      "discount": 40,
+      "title": "Coleção Adidas",
+      "discount": 30,
       "image": "https://www.imagensempng.com.br/wp-content/uploads/2021/05/Headset-Gamer-Png.png"
     },
     {
       "id": 3,
-      "title": "Headsets",
-      "discount": 10,
+      "title": "Novo Beats Bass",
+      "discount": 30,
       "image": "https://static.vecteezy.com/system/resources/previews/012/628/220/non_2x/plain-black-t-shirt-on-transparent-background-free-png.png"
     }
   ],
@@ -34,7 +34,7 @@
       "product": "Tênis",
       "brand": "K-Swiss",
       "model": "V8 - Masculino",
-      "price": 200 
+      "price": 200
     },
     {
       "id": 2,
@@ -42,49 +42,49 @@
       "product": "Tênis",
       "brand": "K-Swiss",
       "model": "V8 - Masculino",
-      "price": 200 
+      "price": 200
     },
     {
       "id": 3,
       "product": "Tênis",
       "brand": "K-Swiss",
       "model": "V8 - Masculino",
-      "price": 200 
+      "price": 200
     },
     {
       "id": 4,
       "product": "Tênis",
       "brand": "K-Swiss",
       "model": "V8 - Masculino",
-      "price": 200 
+      "price": 200
     },
     {
       "id": 5,
       "product": "Tênis",
       "brand": "K-Swiss",
       "model": "V8 - Masculino",
-      "price": 200 
+      "price": 200
     },
     {
       "id": 6,
       "product": "Tênis",
       "brand": "K-Swiss",
       "model": "V8 - Masculino",
-      "price": 200 
+      "price": 200
     },
     {
       "id": 7,
       "product": "Tênis",
       "brand": "K-Swiss",
       "model": "V8 - Masculino",
-      "price": 200 
+      "price": 200
     },
     {
       "id": 8,
       "product": "Tênis",
       "brand": "K-Swiss",
       "model": "V8 - Masculino",
-      "price": 200 
+      "price": 200
     }
   ],
   "images": [
@@ -96,8 +96,8 @@
       "imagem": "https://raw.githubusercontent.com/fniellylima/loja_online_grupo2/f21be1dfd9627d71c979598d63f68632b6916ff1/fs13-loja-online-main/src/components/Carousel/img1.svg",
       "imagem2": "https://raw.githubusercontent.com/fniellylima/loja_online_grupo2/f21be1dfd9627d71c979598d63f68632b6916ff1/fs13-loja-online-main/src/components/Carousel/img2.svg",
       "label": ""
-     },
-     {
+    },
+    {
       "subtitle": "Melhores ofertas personalizadas",
       "title": "Promoção 2 🔥",
       "description": "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
@@ -105,8 +105,8 @@
       "imagem": "https://raw.githubusercontent.com/fniellylima/loja_online_grupo2/f21be1dfd9627d71c979598d63f68632b6916ff1/fs13-loja-online-main/src/components/Carousel/img1.svg",
       "imagem2": "https://raw.githubusercontent.com/fniellylima/loja_online_grupo2/f21be1dfd9627d71c979598d63f68632b6916ff1/fs13-loja-online-main/src/components/Carousel/img2.svg",
       "label": ""
-     },
-     {
+    },
+    {
       "subtitle": "Melhores ofertas personalizadas",
       "title": "Promoção 3 🔥",
       "description": "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
@@ -114,8 +114,8 @@
       "imagem": "https://raw.githubusercontent.com/fniellylima/loja_online_grupo2/f21be1dfd9627d71c979598d63f68632b6916ff1/fs13-loja-online-main/src/components/Carousel/img1.svg",
       "imagem2": "https://raw.githubusercontent.com/fniellylima/loja_online_grupo2/f21be1dfd9627d71c979598d63f68632b6916ff1/fs13-loja-online-main/src/components/Carousel/img2.svg",
       "label": ""
-     }, 
-     {
+    },
+    {
       "subtitle": "Melhores ofertas personalizadas",
       "title": "Promoção 4 🔥",
       "description": "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
@@ -123,6 +123,6 @@
       "imagem": "https://raw.githubusercontent.com/fniellylima/loja_online_grupo2/f21be1dfd9627d71c979598d63f68632b6916ff1/fs13-loja-online-main/src/components/Carousel/img1.svg",
       "imagem2": "https://raw.githubusercontent.com/fniellylima/loja_online_grupo2/f21be1dfd9627d71c979598d63f68632b6916ff1/fs13-loja-online-main/src/components/Carousel/img2.svg",
       "label": ""
-     }
+    }
   ]
 }

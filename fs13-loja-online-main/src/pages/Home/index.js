@@ -16,6 +16,10 @@ export default function Home() {
 
             <FeaturedCollections />
 
+            <div>
+                Coleções em destaque - 2
+            </div>
+
             <TrendingProducts />
 
             <div>
