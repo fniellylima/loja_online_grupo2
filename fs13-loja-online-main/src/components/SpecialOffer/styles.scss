@@ -1,0 +1,95 @@
+$color-description:#474747;
+$color-pink: #C92071;
+
+.divSpecialOffer {
+    margin-top: 10px;
+    position: relative;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+    .gridImagem {
+    // border: 1px solid red;
+    width: 40%;
+    height: 548px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+        div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            .offershoes {
+                position: absolute;
+                margin: center;
+                width:500px;
+            }
+            
+            .offerbg{
+                position: absolute;
+                margin-left: center;
+                width: 500px;
+            }
+        }
+
+    }
+
+
+    .gridTexto {
+        // position: absolute;
+        // border: 1px solid rgb(13, 0, 255);
+        width: 40%;
+        height: 548px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            height: auto;
+            width: auto;
+            margin-left: 40px;
+
+            h4 {
+                color: $color-pink;
+                font-size: 13px;
+                margin-bottom: 15px;
+            }
+
+            h1{
+                color:$color-description;
+                font-weight: 600;
+                font-size: 45px;
+                margin-top: 10px;
+                margin-bottom: 15px;
+
+            }
+
+            p {
+                color:$color-description;
+                font-weight: 100;
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+
+            Button, Button:hover{
+                background-color: $color-pink;
+                margin-bottom: 15px;
+            }
+
+
+        }
+    }
+

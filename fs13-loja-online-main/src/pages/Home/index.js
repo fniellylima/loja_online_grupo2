@@ -4,6 +4,7 @@ import Carousel from "../../components/Carousel";
 import TrendingProducts from "../../components/TrendingProducts";
 import Header from "../../components/Header";
 import { Menu } from "@mui/material";
+import SpecialOffer from "../../components/SpecialOffer";
 import FeaturedCollections2 from "../../components/FeaturedCollections2";
 
 export default function Home() {
@@ -21,9 +22,7 @@ export default function Home() {
 
             <TrendingProducts />
 
-            <div>
-                Oferta Especial
-            </div>
+            <SpecialOffer/>
 
             <Footer />
         </div>
