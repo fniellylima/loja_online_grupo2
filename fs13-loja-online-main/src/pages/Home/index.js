@@ -4,6 +4,7 @@ import Carousel from "../../components/Carousel";
 import TrendingProducts from "../../components/TrendingProducts";
 import Header from "../../components/Header";
 import { Menu } from "@mui/material";
+import FeaturedCollections2 from "../../components/FeaturedCollections2";
 
 export default function Home() {
     return (
@@ -16,9 +17,7 @@ export default function Home() {
 
             <FeaturedCollections />
 
-            <div>
-                Coleções em destaque - 2
-            </div>
+            <FeaturedCollections2 />
 
             <TrendingProducts />
 
