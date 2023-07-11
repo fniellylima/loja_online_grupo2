@@ -13,7 +13,6 @@ $color-pink: #C92071;
 }
 
     .gridImagem {
-    // border: 1px solid red;
     width: 40%;
     height: 548px;
     display: flex;
@@ -44,15 +43,11 @@ $color-pink: #C92071;
 
 
     .gridTexto {
-        // position: absolute;
-        // border: 1px solid rgb(13, 0, 255);
         width: 40%;
         height: 548px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: start;
-        
 
         div {
             display: flex;
