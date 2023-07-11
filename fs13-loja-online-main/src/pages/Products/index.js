@@ -190,7 +190,7 @@ export default function Products() {
                             </ul>
                         </div>
                     </div>
-                    <div>
+                    <div className="teste">
                         <Grid container spacing={12} style={{ width: "72em" }}>
                             {productsAPI.map(product => (
                                 <Card offer={product.offer} productImg={productImg} productName={product.product} brand={product.brand} model={product.model} price={product.price} />

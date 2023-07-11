@@ -16,18 +16,19 @@ export default function Card({ offer, productImg, productName, brand, model, pri
     return (
         <Grid item xs="3">
             <div className="CardContainer">
-                <div className="CardItem">
-                    {offer && <span id="CardOffer">{offer}% OFF</span>}
-                    <img id="CardImg" src={productImg} alt="Tênis" />
-                </div>
-                <div className="CardInfo">
-                    <h3 id="ItemName">{productName}</h3>
-                    <p id="ItemBrandModel">{brand} {model}</p>
-                    <div className="ItemPrice">
-                        {offer ? <p id="Price">${price}</p> : <p id="noOffer">${price}</p> }
-                        {offer && <p id="DiscountedItemValue">${DiscountCalculation(price, offer)}</p>}
+                    <div className="CardItem">
+                        {offer && <span id="CardOffer">{offer}% OFF</span>}
+                        <img id="CardImg" src={productImg} alt="Tênis" />
                     </div>
-                </div>
+                    <div className="CardInfo">
+                        <h3 id="ItemName">{productName}</h3>
+                        <p id="ItemBrandModel">{brand} {model}</p>
+                        <div className="ItemPrice">
+                            {offer ? <p id="Price">${price}</p> : <p id="noOffer">${price}</p> }
+                            {offer && <p id="DiscountedItemValue">${DiscountCalculation(price, offer)}</p>}
+                        </div>
+                    </div>
+                
             </div>
         </Grid>
     )

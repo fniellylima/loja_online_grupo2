@@ -1,7 +1,7 @@
 div.ProductContainer {
     background-color: #F9F8FE;
     margin-top: 2%;
-    width: 110vw;
+    width: 100%;
     height: max-content;
 
     div.ProductContainerHeader {
@@ -25,8 +25,8 @@ div.ProductContainer {
         width: 100vw;
         height: max-content;
         display: flex;
-        padding-bottom: 2%;
-
+        padding-bottom: 3%;
+        
         div#ProductContentFilter {
             width: 15vw;
             margin-left: 5%;
